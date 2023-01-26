@@ -1,0 +1,48 @@
+body{
+    border: 6px double black;
+    background-color: #d3d3d3;
+}
+h1{
+    width: 150px;
+    margin: 0 auto;
+}
+.logo>h1>img{
+    height: 150px;
+    width: 150px;
+}
+ul{
+    border-top:  3px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 12px;
+}
+li{
+   display: inline;
+   margin: 55px;
+   
+}
+li>a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+li>a:hover{
+    color: #ff0000;
+}
+.container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cover-images{
+    
+    height: 300px;
+    padding: 0;
+    margin: 0;
+}
+.cover-images>img{
+    margin: -2px;
+    height: 100%;
+    width: 33.33%;
+}
+p{
+    margin-bottom: 155px;
+}
